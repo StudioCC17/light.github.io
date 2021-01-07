@@ -1,0 +1,1413 @@
+/* font */
+@font-face {
+  font-family: 'LightSansBook';
+  src: url('fonts/LightSansBook.eot');
+  src: url('fonts/LightSansBook.eot') format('embedded-opentype'),
+    url('fonts/LightSansBook.woff2') format('woff2'), url('fonts/LightSansBook.woff') format('woff'),
+    url('fonts/LightSansBook.ttf') format('truetype'),
+    url('fonts/LightSansBook.svg#LightSansBook') format('svg');
+}
+
+.hide-desktop {
+  display: none;
+}
+
+.valid {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.valid ~ #mc-embedded-subscribe {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.valid ~ .buttons {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+div#mce-error-response {
+  position: absolute;
+  margin-top: -60px;
+}
+
+div#mce-success-response {
+  width: 100%;
+  margin-top: -60px;
+}
+
+.valid div#mce-responses {
+  position: absolute;
+  width: 100%;
+  margin-top: -80px;
+}
+
+html {
+  overflow: hidden;
+}
+
+div#mce-success-response {
+  color: white;
+  font-size: 1.75vw;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+input#mce-EMAIL {
+  color: white !important;
+}
+
+/* global styles */
+body {
+  font-size: 15px;
+  font-family: LightSansBook !important;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  text-align: center;
+  overflow: hidden;
+}
+.light-returning {
+  color: white;
+  padding-top: 15px;
+  font-size: 18px;
+}
+.hide {
+  opacity: 0;
+  transition: 0.3s;
+}
+.show {
+  opacity: 1;
+  transition: 0.3s;
+}
+#light_vid {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -999999999;
+}
+li {
+  font-size: 13px;
+  padding-bottom: 7px;
+  list-style: none !important;
+}
+a {
+  color: #fff !important;
+  text-decoration: none !important;
+  padding-bottom: 2px;
+  font-family: LightSansBook, sans-serif;
+}
+
+textarea:focus,
+input:focus {
+  outline: none !important;
+}
+
+div#mc_embed_signup {
+  margin-top: 15vh;
+}
+
+div#mce-error-response {
+  font-size: 1.75vw;
+  padding-left: 35%;
+  padding-right: 35%;
+  color: white;
+}
+
+a:hover {
+  opacity: 1;
+  border-bottom: 1px solid;
+}
+.logo-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7vh;
+  margin-top: 42vh;
+}
+.logo-img {
+  width: 43%;
+  margin-right: -5px;
+}
+.main-info {
+  position: fixed;
+  bottom: 35px;
+  color: white;
+  font-family: LightSansBook, sans-serif;
+  width: 100%;
+}
+/* Signup form */
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: white;
+  font-size: 15px !important;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+  font-size: 15px !important;
+}
+
+input#mce-EMAIL {
+  background: none !important;
+  border: 0px;
+  border-bottom: 1px solid white !important;
+  width: 43%;
+  padding-bottom: 5px;
+  border-radius: 0 !important;
+}
+
+#mc_embed_signup div.mce_inline_error {
+  background: none !important;
+  font-weight: normal !important;
+}
+
+input#mc-embedded-subscribe {
+  background: none;
+  border: 0;
+  color: white;
+  margin-left: -7.5%;
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 319px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .sign-up {
+    display: none;
+  }
+
+  li {
+    font-size: 13px;
+    padding-bottom: 10px;
+  }
+
+  .hide-desktop {
+    display: block;
+  }
+
+  .main-info {
+    bottom: 25px;
+  }
+
+  ::-webkit-input-placeholder {
+    /* Edge */
+    color: white;
+    font-size: 16px !important;
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+    font-size: 16px !important;
+  }
+
+  div#mc_embed_signup {
+    margin-top: 5vh;
+  }
+
+  .right-arrow {
+    right: 10% !important;
+    bottom: 24.5% !important;
+  }
+
+  .logo-img {
+    width: 80%;
+    margin-top: -10%;
+  }
+  #mc_embed_signup .mc-field-group label {
+    display: inline !important;
+    margin-bottom: 3px;
+  }
+  .popup {
+    width: 90% !important;
+    top: 10%;
+  }
+  #mc_embed_signup .mc-field-group {
+    width: 100% !important;
+  }
+  #mc_embed_signup .button {
+    width: 25% !important;
+    margin-left: -24.5%;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .light-returning {
+    font-size: 19px;
+    line-height: 15px;
+    margin-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0px !important;
+    padding-bottom: 50px;
+  }
+  #mc_embed_signup {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+
+  div.response {
+    font-size: 19px !important;
+  }
+
+  input#mce-EMAIL {
+    width: 98%;
+  }
+
+  .buttons {
+    display: none;
+  }
+
+  div#mce-error-response {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+
+  .logo-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    margin-top: 33vh;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .logo-img {
+    width: 39%;
+    margin-top: -9%;
+  }
+
+  .logo-area {
+    margin-top: 21vh;
+  }
+
+  .hide-desktop {
+    display: none !important;
+  }
+
+  .light-returning {
+    padding-bottom: 30px;
+  }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 319px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .sign-up {
+    display: none;
+  }
+
+  li {
+    font-size: 13px;
+    padding-bottom: 10px;
+  }
+
+  .hide-desktop {
+    display: block;
+  }
+
+  .main-info {
+    bottom: 25px;
+  }
+
+  ::-webkit-input-placeholder {
+    /* Edge */
+    color: white;
+    font-size: 16px !important;
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+    font-size: 16px !important;
+  }
+
+  div#mc_embed_signup {
+    margin-top: 5vh;
+  }
+
+  .right-arrow {
+    right: 10% !important;
+    bottom: 25% !important;
+  }
+
+  .logo-img {
+    width: 80%;
+    margin-top: -10%;
+  }
+  #mc_embed_signup .mc-field-group label {
+    display: inline !important;
+    margin-bottom: 3px;
+  }
+  .popup {
+    width: 90% !important;
+    top: 10%;
+  }
+  #mc_embed_signup .mc-field-group {
+    width: 100% !important;
+  }
+  #mc_embed_signup .button {
+    width: 25% !important;
+    margin-left: -24.5%;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .light-returning {
+    font-size: 19px;
+    line-height: 15px;
+    margin-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0px !important;
+    padding-bottom: 50px;
+  }
+
+  input#mce-EMAIL {
+    font-size: 16px;
+    line-height: 13px;
+  }
+
+  #mc_embed_signup {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+
+  div.response {
+    font-size: 19px !important;
+  }
+
+  input#mce-EMAIL {
+    width: 98%;
+  }
+
+  .buttons {
+    display: none;
+  }
+
+  div#mce-error-response {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+
+  .logo-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    margin-top: 23vh;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .logo-img {
+    width: 39%;
+    margin-top: -9%;
+  }
+
+  .logo-area {
+    margin-top: 21vh;
+  }
+
+  .hide-desktop {
+    display: none !important;
+  }
+
+  .light-returning {
+    padding-bottom: 12px;
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .sign-up {
+    display: none;
+  }
+
+  li {
+    font-size: 13px;
+    padding-bottom: 10px;
+  }
+
+  .hide-desktop {
+    display: block;
+  }
+
+  .main-info {
+    bottom: 25px;
+  }
+
+  ::-webkit-input-placeholder {
+    /* Edge */
+    color: white;
+    font-size: 16px !important;
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+    font-size: 16px !important;
+  }
+
+  div#mc_embed_signup {
+    margin-top: 8vh;
+  }
+  .right-arrow {
+    right: 10% !important;
+    bottom: 24.5% !important;
+  }
+
+  .logo-img {
+    width: 80%;
+    margin-top: -10%;
+  }
+  #mc_embed_signup .mc-field-group label {
+    display: inline !important;
+    margin-bottom: 3px;
+  }
+  .popup {
+    width: 90% !important;
+    top: 10%;
+  }
+  #mc_embed_signup .mc-field-group {
+    width: 100% !important;
+  }
+  #mc_embed_signup .button {
+    width: 25% !important;
+    margin-left: -24.5%;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .light-returning {
+    font-size: 19px;
+    line-height: 15px;
+    margin-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0px !important;
+    padding-bottom: 50px;
+  }
+  #mc_embed_signup {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+
+  div.response {
+    font-size: 19px !important;
+  }
+
+  input#mce-EMAIL {
+    width: 98%;
+  }
+
+  .buttons {
+    display: none;
+  }
+
+  div#mce-error-response {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+
+  .logo-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    margin-top: 33vh;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .logo-img {
+    width: 39%;
+    margin-top: -9%;
+  }
+
+  .logo-area {
+    margin-top: 21vh;
+  }
+
+  .hide-desktop {
+    display: none !important;
+  }
+
+  .light-returning {
+    padding-bottom: 20px;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .sign-up {
+    display: none;
+  }
+
+  li {
+    font-size: 13px;
+    padding-bottom: 10px;
+  }
+
+  .hide-desktop {
+    display: block;
+  }
+
+  .main-info {
+    bottom: 25px;
+  }
+
+  ::-webkit-input-placeholder {
+    /* Edge */
+    color: white;
+    font-size: 19px !important;
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+    font-size: 16px !important;
+  }
+
+  div#mc_embed_signup {
+    margin-top: 8vh;
+  }
+  .right-arrow {
+    right: 10% !important;
+    bottom: 24.5% !important;
+  }
+
+  .logo-img {
+    width: 80%;
+    margin-top: -10%;
+  }
+  #mc_embed_signup .mc-field-group label {
+    display: inline !important;
+    margin-bottom: 3px;
+  }
+  .popup {
+    width: 90% !important;
+    top: 10%;
+  }
+  #mc_embed_signup .mc-field-group {
+    width: 100% !important;
+  }
+  #mc_embed_signup .button {
+    width: 25% !important;
+    margin-left: -24.5%;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .light-returning {
+    font-size: 19px;
+    line-height: 15px;
+    margin-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0px !important;
+    padding-bottom: 50px;
+  }
+  #mc_embed_signup {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+
+  div.response {
+    font-size: 19px !important;
+  }
+  input#mce-EMAIL {
+    width: 98%;
+  }
+
+  .buttons {
+    display: none;
+  }
+
+  div#mce-error-response {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+
+  .logo-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    margin-top: 33vh;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .logo-img {
+    width: 39%;
+    margin-top: -9%;
+  }
+
+  .logo-area {
+    margin-top: 21vh;
+  }
+
+  .hide-desktop {
+    display: none !important;
+  }
+
+  .light-returning {
+    padding-bottom: 20px;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .sign-up {
+    display: none;
+  }
+
+  li {
+    font-size: 13px;
+    padding-bottom: 10px;
+  }
+
+  .hide-desktop {
+    display: block;
+  }
+
+  .main-info {
+    bottom: 25px;
+  }
+
+  ::-webkit-input-placeholder {
+    /* Edge */
+    color: white;
+    font-size: 17px !important;
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+    font-size: 17px !important;
+  }
+
+  div#mc_embed_signup {
+    margin-top: 8vh;
+  }
+  .right-arrow {
+    right: 10% !important;
+    bottom: 23.5% !important;
+  }
+
+  .logo-img {
+    width: 80%;
+    margin-top: -10%;
+  }
+  #mc_embed_signup .mc-field-group label {
+    display: inline !important;
+    margin-bottom: 3px;
+  }
+  .popup {
+    width: 90% !important;
+    top: 10%;
+  }
+  #mc_embed_signup .mc-field-group {
+    width: 100% !important;
+  }
+  #mc_embed_signup .button {
+    width: 25% !important;
+    margin-left: -24.5%;
+    font-size: 17px;
+    line-height: 16px;
+  }
+  .light-returning {
+    font-size: 19px;
+    line-height: 15px;
+    margin-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0px !important;
+    padding-bottom: 50px;
+  }
+  #mc_embed_signup {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+
+  div.response {
+    font-size: 19px !important;
+  }
+
+  input#mce-EMAIL {
+    width: 98%;
+  }
+
+  .buttons {
+    display: none;
+  }
+
+  div#mce-error-response {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+
+  .logo-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    margin-top: 33vh;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .logo-img {
+    width: 39% !important;
+    margin-top: -9% !important;
+  }
+
+  .logo-area {
+    margin-top: 21vh;
+  }
+
+  .hide-desktop {
+    display: none !important;
+  }
+
+  .light-returning {
+    padding-bottom: 20px;
+  }
+}
+/* ----------- Google Pixel ----------- */
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .sign-up {
+    display: none;
+  }
+
+  .hide-desktop {
+    display: block;
+  }
+
+  .main-info {
+    bottom: 25px;
+  }
+
+  ::-webkit-input-placeholder {
+    /* Edge */
+    color: white;
+    font-size: 19px !important;
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+    font-size: 19px !important;
+  }
+
+  div#mc_embed_signup {
+    margin-top: 8vh;
+  }
+  .right-arrow {
+    right: 10% !important;
+    bottom: 24.5% !important;
+  }
+
+  .logo-img {
+    width: 80%;
+    margin-top: -10%;
+  }
+  #mc_embed_signup .mc-field-group label {
+    display: inline !important;
+    margin-bottom: 3px;
+  }
+  .popup {
+    width: 90% !important;
+    top: 10%;
+  }
+  #mc_embed_signup .mc-field-group {
+    width: 100% !important;
+  }
+  #mc_embed_signup .button {
+    width: 25% !important;
+    margin-left: -24.5%;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .light-returning {
+    font-size: 19px;
+    line-height: 27px;
+    margin-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0px !important;
+    padding-bottom: 50px;
+  }
+  #mc_embed_signup {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+
+  div.response {
+    font-size: 19px !important;
+  }
+
+  input#mce-EMAIL {
+    width: 98%;
+  }
+
+  .buttons {
+    display: none;
+  }
+
+  div#mce-error-response {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+
+  .logo-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    margin-top: 33vh;
+  }
+}
+/* ----------- Google Pixel2 ----------- */
+/* Portrait and Landscape */
+@media screen and (device-width: 411px) and (device-height: 731px) and (-webkit-device-pixel-ratio: 3) {
+  .sign-up {
+    display: none;
+  }
+
+  .hide-desktop {
+    display: block;
+  }
+
+  .main-info {
+    bottom: 25px;
+  }
+
+  ::-webkit-input-placeholder {
+    /* Edge */
+    color: white;
+    font-size: 19px !important;
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+    font-size: 19px !important;
+  }
+
+  div#mc_embed_signup {
+    margin-top: 8vh;
+  }
+
+  .right-arrow {
+    right: 10% !important;
+    bottom: 24.5% !important;
+  }
+
+  .logo-img {
+    width: 80%;
+    margin-top: -10%;
+  }
+  #mc_embed_signup .mc-field-group label {
+    display: inline !important;
+    margin-bottom: 3px;
+  }
+  .popup {
+    width: 90% !important;
+    top: 10%;
+  }
+  #mc_embed_signup .mc-field-group {
+    width: 100% !important;
+  }
+  #mc_embed_signup .button {
+    width: 25% !important;
+    margin-left: -24.5%;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .light-returning {
+    font-size: 19px;
+    line-height: 27px;
+    margin-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0px !important;
+    padding-bottom: 50px;
+  }
+  #mc_embed_signup {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+
+  div.response {
+    font-size: 19px !important;
+  }
+
+  input#mce-EMAIL {
+    width: 98%;
+  }
+
+  .buttons {
+    display: none;
+  }
+
+  div#mce-error-response {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+}
+/* ----------- Google Pixel XL ----------- */
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+  .sign-up {
+    display: none;
+  }
+
+  .hide-desktop {
+    display: block;
+  }
+
+  .main-info {
+    bottom: 25px;
+  }
+
+  ::-webkit-input-placeholder {
+    /* Edge */
+    color: white;
+    font-size: 19px !important;
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+    font-size: 19px !important;
+  }
+
+  div#mc_embed_signup {
+    margin-top: 8vh;
+  }
+  .right-arrow {
+    right: 10% !important;
+    bottom: 24.5% !important;
+  }
+
+  .logo-img {
+    width: 80%;
+    margin-top: -10%;
+  }
+  #mc_embed_signup .mc-field-group label {
+    display: inline !important;
+    margin-bottom: 3px;
+  }
+  .popup {
+    width: 90% !important;
+    top: 10%;
+  }
+  #mc_embed_signup .mc-field-group {
+    width: 100% !important;
+  }
+  #mc_embed_signup .button {
+    width: 25% !important;
+    margin-left: -24.5%;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .light-returning {
+    font-size: 19px;
+    line-height: 27px;
+    margin-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0px !important;
+    padding-bottom: 50px;
+  }
+  #mc_embed_signup {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+
+  div.response {
+    font-size: 19px !important;
+  }
+
+  input#mce-EMAIL {
+    width: 98%;
+  }
+
+  .buttons {
+    display: none;
+  }
+
+  div#mce-error-response {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+}
+/* ----------- Google Pixel XL2 ----------- */
+/* Portrait and Landscape */
+@media screen and (device-width: 411px) and (device-height: 819px) and (-webkit-device-pixel-ratio: 4) {
+  .sign-up {
+    display: none;
+  }
+
+  .hide-desktop {
+    display: block;
+  }
+
+  .main-info {
+    bottom: 25px;
+  }
+
+  div#mc_embed_signup {
+    margin-top: 8vh;
+  }
+  .right-arrow {
+    right: 10% !important;
+    bottom: 24.5% !important;
+  }
+
+  .logo-img {
+    width: 80%;
+    margin-top: -10%;
+  }
+  #mc_embed_signup .mc-field-group label {
+    display: inline !important;
+    margin-bottom: 3px;
+  }
+  .popup {
+    width: 90% !important;
+    top: 10%;
+  }
+  #mc_embed_signup .mc-field-group {
+    width: 100% !important;
+  }
+  #mc_embed_signup .button {
+    width: 25% !important;
+    margin-left: -24.5%;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .light-returning {
+    font-size: 19px;
+    line-height: 27px;
+    margin-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0px !important;
+    padding-bottom: 50px;
+  }
+  #mc_embed_signup {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+
+  div.response {
+    font-size: 19px !important;
+  }
+
+  input#mce-EMAIL {
+    width: 98%;
+  }
+
+  .buttons {
+    display: none;
+  }
+
+  div#mce-error-response {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+}
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+/* Portrait and Landscape */
+@media screen and (device-width: 319px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .sign-up {
+    display: none;
+  }
+
+  .hide-desktop {
+    display: block;
+  }
+
+  div#mc_embed_signup {
+    margin-top: 8vh;
+  }
+
+  .right-arrow {
+    right: 10% !important;
+    bottom: 24.5% !important;
+  }
+
+  .logo-img {
+    width: 80%;
+    margin-top: -10%;
+  }
+  #mc_embed_signup .mc-field-group label {
+    display: inline !important;
+    margin-bottom: 3px;
+  }
+  .popup {
+    width: 90% !important;
+    top: 10%;
+  }
+  #mc_embed_signup .mc-field-group {
+    width: 100% !important;
+  }
+  #mc_embed_signup .button {
+    width: 25% !important;
+    margin-left: -24.5%;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .light-returning {
+    font-size: 19px;
+    line-height: 27px;
+    margin-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0px !important;
+    padding-bottom: 50px;
+  }
+  #mc_embed_signup {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+
+  div.response {
+    font-size: 19px !important;
+  }
+
+  input#mce-EMAIL {
+    width: 98%;
+  }
+
+  .buttons {
+    display: none;
+  }
+
+  div#mce-error-response {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+}
+/* ----------- Galaxy S6 ----------- */
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {
+  .sign-up {
+    display: none;
+  }
+  .right-arrow {
+    right: 10% !important;
+    bottom: 24.5% !important;
+  }
+
+  .hide-desktop {
+    display: block;
+  }
+
+  .logo-img {
+    width: 80%;
+    margin-top: -10%;
+  }
+  #mc_embed_signup .mc-field-group label {
+    display: inline !important;
+    margin-bottom: 3px;
+  }
+  .popup {
+    width: 90% !important;
+    top: 10%;
+  }
+  #mc_embed_signup .mc-field-group {
+    width: 100% !important;
+  }
+  #mc_embed_signup .button {
+    width: 25% !important;
+    margin-left: -24.5%;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .light-returning {
+    font-size: 19px;
+  }
+  #mc_embed_signup {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+
+  div.response {
+    font-size: 19px !important;
+  }
+
+  input#mce-EMAIL {
+    width: 98%;
+  }
+
+  .buttons {
+    display: none;
+  }
+
+  div#mce-error-response {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .logo-img {
+    width: 60%;
+    margin-top: -20%;
+  }
+
+  input#mce-EMAIL {
+    width: 50%;
+  }
+  input#mc-embedded-subscribe {
+    margin-left: -12.5%;
+  }
+
+  .light-returning {
+    font-size: 28px;
+    margin-top: -70px;
+  }
+
+  input#mce-EMAIL {
+    width: 65%;
+  }
+
+  ::-webkit-input-placeholder {
+    color: white;
+    font-size: 20px !important;
+  }
+
+  input#mc-embedded-subscribe {
+    color: white;
+    font-size: 20px !important;
+  }
+}
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .logo-img {
+    width: 60%;
+    margin-top: -20%;
+  }
+
+  input#mce-EMAIL {
+    width: 50%;
+  }
+  input#mc-embedded-subscribe {
+    margin-left: -12.5%;
+  }
+
+  .light-returning {
+    font-size: 28px;
+    margin-top: -70px;
+  }
+
+  input#mce-EMAIL {
+    width: 65%;
+  }
+
+  ::-webkit-input-placeholder {
+    color: white;
+    font-size: 20px !important;
+  }
+
+  input#mc-embedded-subscribe {
+    color: white;
+    font-size: 20px !important;
+  }
+}
+/* ----------- iPad Pro 10.5" ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  .logo-img {
+    width: 60%;
+    margin-top: -20%;
+  }
+
+  input#mce-EMAIL {
+    width: 50%;
+  }
+  input#mc-embedded-subscribe {
+    margin-left: -12.5%;
+  }
+
+  .light-returning {
+    font-size: 28px;
+    margin-top: -70px;
+  }
+
+  input#mce-EMAIL {
+    width: 65%;
+  }
+
+  ::-webkit-input-placeholder {
+    color: white;
+    font-size: 20px !important;
+  }
+
+  input#mc-embedded-subscribe {
+    color: white;
+    font-size: 20px !important;
+  }
+}
+/* ----------- iPad Pro 12.9" ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  .logo-img {
+    width: 60%;
+    margin-top: -20%;
+  }
+
+  input#mce-EMAIL {
+    width: 50%;
+  }
+  input#mc-embedded-subscribe {
+    margin-left: -12.5%;
+  }
+
+  .light-returning {
+    font-size: 28px;
+    margin-top: -70px;
+  }
+
+  input#mce-EMAIL {
+    width: 65%;
+  }
+
+  ::-webkit-input-placeholder {
+    color: white;
+    font-size: 20px !important;
+  }
+
+  input#mc-embedded-subscribe {
+    color: white;
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (min-width: 319px) and (max-width: 767px) and (orientation: landscape) {
+  html {
+    height: 100vw;
+  }
+}
