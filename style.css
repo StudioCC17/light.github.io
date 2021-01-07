@@ -12,6 +12,11 @@
   display: none;
 }
 
+ul {
+    padding: 0!important;
+    list-style: none!important;
+}
+
 input#mce-EMAIL{padding-top: 5px}
 
 .valid {
