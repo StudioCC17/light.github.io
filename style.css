@@ -150,6 +150,12 @@ a:hover {
   /* Edge */
   color: white;
   font-size: 15px !important;
+  font-family: LightSansBook !important;
+}
+
+input#mc-embedded-subscribe {
+    font-family: LightSansBook !important;
+  font-size: 15px !important;
 }
 
 :-ms-input-placeholder {
