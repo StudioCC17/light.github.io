@@ -267,10 +267,7 @@ input#mc-embedded-subscribe {
     padding-top: 0px !important;
     padding-bottom: 50px;
   }
-  #mc_embed_signup {
-    padding-left: 5% !important;
-    padding-right: 5% !important;
-  }
+
 
   input#mce-EMAIL{font-size: 17px}
 
@@ -279,10 +276,9 @@ input#mc-embedded-subscribe {
   }
 
   input#mce-EMAIL {
-    width: 90%;
+    width: 85%;
     text-align: center;
-    margin-left: 5% !important;
-    margin-right: 5% !important;
+  
   }
 
   .buttons {
