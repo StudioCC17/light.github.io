@@ -279,9 +279,10 @@ input#mc-embedded-subscribe {
   }
 
   input#mce-EMAIL {
-    width: 100%;
-   
-    text-align: center
+    width: 90%;
+    text-align: center;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
   }
 
   .buttons {
@@ -298,7 +299,7 @@ input#mc-embedded-subscribe {
     align-items: center;
     justify-content: center;
     height: 7vh;
-    margin-top: 33vh;
+    margin-top: 22vh;
   }
 }
 
@@ -942,4 +943,3 @@ input#mc-embedded-subscribe {
     height: 100vw;
   }
 }
-
