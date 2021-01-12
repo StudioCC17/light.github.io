@@ -280,6 +280,7 @@ input#mc-embedded-subscribe {
   input#mce-EMAIL {
     width: 100%;
     float: left;
+    text-align: center
   }
 
   .buttons {
